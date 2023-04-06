@@ -1,16 +1,18 @@
-#app{
-  height:90vh;
+.day{
+	display:flex;
+	flex-direction:column;
 }
-.night{
-  background-color: black;
-  color:white;
+#ptag{
+	justify-content:center;
+	color:aqua;
 }
-
-#swap{
-  outline:0;
+.button-day{
+	margin:0px;
+	justify-content:center;
+	
 }
-
-.button_night{
-  background-color:blue;
-  color:white; 
+.button-day:active{
+	body{
+		background-color:black;
+	}
 }
