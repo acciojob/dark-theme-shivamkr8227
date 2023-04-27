@@ -1,18 +1,12 @@
 .day{
 	display:flex;
 	flex-direction:column;
+	height:400px;
 }
 #ptag{
 	justify-content:center;
 	color:aqua;
 }
-.button-day{
-	margin:0px;
-	justify-content:center;
-	
-}
-.button-day:active{
-	body{
-		background-color:black;
-	}
+#swap{
+	padding:0px;
 }
