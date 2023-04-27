@@ -6,11 +6,13 @@ button.addEventListener("click", function(){
 	if(value==true)
 	{
 		backgr.style.backgroundColor="black";
+		button.classList.add("button_night");
 		value=false;
 	}
 	else
 	{
 		backgr.style.backgroundColor="white";
+		button.classList.remove("button_night");
 		value=true;
 	}
 });
