@@ -7,12 +7,14 @@ button.addEventListener("click", function(){
 	{
 		backgr.style.backgroundColor="black";
 		button.classList.add("button_night");
+		backgr.classList.add("night");
 		value=false;
 	}
 	else
 	{
 		backgr.style.backgroundColor="white";
 		button.classList.remove("button_night");
+		backgr.classList.remove("night");
 		value=true;
 	}
 });
